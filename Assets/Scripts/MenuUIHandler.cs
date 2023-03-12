@@ -9,7 +9,7 @@ public class MenuUIHandler : MonoBehaviour
     //This is the handler of the main menu scene
 
     [SerializeField] Text PlayerNameInput;
-
+    
     public void StartGame()
     {
         SceneManager.LoadScene(1);
